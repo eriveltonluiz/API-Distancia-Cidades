@@ -1,0 +1,10 @@
+package com.project.apicities.exceptions;
+
+public class CountryNotFoundException extends Exception{
+	
+	private static final long serialVersionUID = 1L;
+
+	public CountryNotFoundException() {
+		super("Country not found!!");
+	}
+}
